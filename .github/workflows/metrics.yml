@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lotte/metrics@fix-rss
         with:
           token: ${{ secrets.METRICS_TOKEN }}  
 
       # Achievements
       - name: 🏆 
-        uses: lowlighter/metrics@latest
+        uses: lotte/metrics@fix-rss
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -31,7 +31,7 @@ jobs:
           
       # Commit Map
       - name: 📅 Commit Map
-        uses: lowlighter/metrics@latest
+        uses: lotte/metrics@fix-rss
         with:
           filename: metrics.plugin.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -40,7 +40,7 @@ jobs:
           
       # Latest News
       - name: 🗼 Latest News
-        uses: lowlighter/metrics@latest
+        uses: lotte/metrics@fix-rss
         with:
           filename: metrics.plugin.rss.svg
           token: NOT_NEEDED
