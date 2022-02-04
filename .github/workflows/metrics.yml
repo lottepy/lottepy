@@ -13,16 +13,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-      
-      # About Me
-      - name: Example
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.classic.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: header, repositories
-          plugin_lines: yes    
+          token: ${{ secrets.METRICS_TOKEN }}  
 
       # Achievements
       - name: Compact display
@@ -48,7 +39,7 @@ jobs:
           plugin_isocalendar: yes
           
       # RSS News
-      - name: News from hackernews
+      - name: 🗼 Rss feed
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.rss.svg
@@ -56,4 +47,4 @@ jobs:
           base: ""
           plugin_rss: yes
           plugin_rss_source: https://rsshub.app/initium/latest/zh-han
-          plugin_rss_limit: 4
+          plugin_rss_limit: 6
