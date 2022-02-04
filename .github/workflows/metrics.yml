@@ -42,9 +42,16 @@ jobs:
       - name: 🗼 Rss feed
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.rss.svg
-          token: NOT_NEEDED
-          base: ""
+          template: markdown
+          filename: metrics.plugin.rss.pins.md
+          markdown: >-
+            https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.md
+          config_output: markdown
           plugin_rss: yes
-          plugin_rss_source: https://rsshub.app/initium/latest/zh-han
+          plugin_rss_source: https://rsshub.app/initium/latest/zh-hant
           plugin_rss_limit: 6
+          plugin_topics: yes
+          plugin_topics_limit: 10
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          token: NOT_NEEDED
