@@ -14,6 +14,7 @@ jobs:
       - uses: lottepy/metrics@rss-size
         with:
           token: ${{ secrets.METRICS_TOKEN }}  
+          output_action: commit  
 
       # Achievements
       - name: 🏆 
@@ -28,6 +29,7 @@ jobs:
             scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
           plugin_achievements_threshold: X  
+          output_action: commit  
           
       # Commit Map
       - name: 📅 Commit Map
@@ -37,6 +39,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
+          output_action: commit  
           
       # Latest News
       - name: 🗼 Latest News
@@ -48,6 +51,7 @@ jobs:
           plugin_rss: yes
           plugin_rss_source: https://rsshub.app/initium/latest/zh-hant
           plugin_rss_limit: 6
+          output_action: commit  
           
       # 💹 Crypto Price
       - name: 💹 BTC
