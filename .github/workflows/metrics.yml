@@ -54,7 +54,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lottepy/metrics@rss-size
         with:
-          filename: metrics.plugin.stock.svg
+          filename: metrics.plugin.btc.svg
           token: NOT_NEEDED
           base: ""
           plugin_stock: yes
@@ -67,7 +67,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lottepy/metrics@rss-size
         with:
-          filename: metrics.plugin.stock.svg
+          filename: metrics.plugin.ndx.svg
           token: NOT_NEEDED
           base: ""
           plugin_stock: yes
