@@ -46,11 +46,11 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_rss: yes
-          plugin_rss_source: https://rsshub.app/initium/latest/zh-han
+          plugin_rss_source: https://rsshub.app/initium/latest/zh-hant
           plugin_rss_limit: 6
           
       # 💹 Crypto Price
-      - name: 💹 BTCUSDT
+      - name: 💹 BTC
         if: ${{ success() || failure() }}
         uses: lottepy/metrics@rss-size
         with:
@@ -58,6 +58,19 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_stock: yes
-          plugin_stock_symbol: BTCUSDT
-          plugin_stock_token: ${{ secrets.BINANCE_TOKEN }}
+          plugin_stock_symbol: btc
+          plugin_stock_token: ${{ secrets.YAHOO_TOKEN }}
+          output_action: commit    
+
+      # 💹 Stock Price
+      - name: 💹 NASDAQ 100
+        if: ${{ success() || failure() }}
+        uses: lottepy/metrics@rss-size
+        with:
+          filename: metrics.plugin.stock.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_stock: yes
+          plugin_stock_symbol: ndx
+          plugin_stock_token: ${{ secrets.YAHOO_TOKEN }}
           output_action: commit    
