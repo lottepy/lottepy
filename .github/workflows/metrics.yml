@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: lottepy/metrics@rss-size
+      - uses: lottepy/metrics@rss-svg-width
         with:
           token: ${{ secrets.METRICS_TOKEN }}  
           output_action: commit  
 
       # Achievements
       - name: 🏆 
-        uses: lottepy/metrics@rss-size
+        uses: lottepy/metrics@rss-svg-width
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -33,7 +33,7 @@ jobs:
           
       # Commit Map
       - name: 📅 Commit Map
-        uses: lottepy/metrics@rss-size
+        uses: lottepy/metrics@rss-svg-width
         with:
           filename: metrics.plugin.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -43,7 +43,7 @@ jobs:
           
       # Latest News
       - name: 🗼 Latest News
-        uses: lottepy/metrics@rss-size
+        uses: lottepy/metrics@rss-svg-width
         with:
           filename: metrics.plugin.rss.svg
           token: NOT_NEEDED
@@ -56,7 +56,7 @@ jobs:
       # 💹 Crypto Price
       - name: 💹 BTC
         if: ${{ success() || failure() }}
-        uses: lottepy/metrics@rss-size
+        uses: lottepy/metrics@rss-svg-width
         with:
           filename: metrics.plugin.btc.svg
           token: NOT_NEEDED
@@ -69,7 +69,7 @@ jobs:
       # 💹 Stock Price
       - name: 💹 NASDAQ 100
         if: ${{ success() || failure() }}
-        uses: lottepy/metrics@rss-size
+        uses: lottepy/metrics@rss-svg-width
         with:
           filename: metrics.plugin.ndx.svg
           token: NOT_NEEDED
