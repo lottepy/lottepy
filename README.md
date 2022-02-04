@@ -5,6 +5,8 @@
     <details open><summary>Achievements</summary><img src="https://github.com/lottepy/lottepy/blob/main/metrics.plugin.achievements.compact.svg" alt=""></img></details>
     <details open><summary>Commits Map</summary><img src="https://github.com/lottepy/lottepy/blob/main/metrics.plugin.isocalendar.svg" alt=""></img></details>
     <details open><summary>Latest News</summary><img src="https://github.com/lottepy/lottepy/blob/main/metrics.plugin.rss.svg" alt=""></img></details>
+    <details open><summary>BTC Price</summary><img src="https://github.com/lottepy/lottepy/blob/main/metrics.plugin.btc.svg" alt=""></img></details>
+    <details open><summary>NASDAQ Price</summary><img src="https://github.com/lottepy/lottepy/blob/main/metrics.plugin.ndx.svg" alt=""></img></details>
   </td>
 </tr>
 
