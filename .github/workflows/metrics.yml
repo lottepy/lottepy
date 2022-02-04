@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: lottepy/metrics@fix-rss
+      - uses: lottepy/metrics@rss-size
         with:
           token: ${{ secrets.METRICS_TOKEN }}  
 
       # Achievements
       - name: 🏆 
-        uses: lottepy/metrics@fix-rss
+        uses: lottepy/metrics@rss-size
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -31,7 +31,7 @@ jobs:
           
       # Commit Map
       - name: 📅 Commit Map
-        uses: lottepy/metrics@fix-rss
+        uses: lottepy/metrics@rss-size
         with:
           filename: metrics.plugin.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -40,7 +40,7 @@ jobs:
           
       # Latest News
       - name: 🗼 Latest News
-        uses: lottepy/metrics@fix-rss
+        uses: lottepy/metrics@rss-size
         with:
           filename: metrics.plugin.rss.svg
           token: NOT_NEEDED
@@ -48,3 +48,16 @@ jobs:
           plugin_rss: yes
           plugin_rss_source: https://rsshub.app/initium/latest/zh-han
           plugin_rss_limit: 6
+          
+      # 💹 Crypto Price
+      - name: 💹 BTCUSDT
+        if: ${{ success() || failure() }}
+        uses: lottepy/metrics@rss-size
+        with:
+          filename: metrics.plugin.stock.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_stock: yes
+          plugin_stock_symbol: BTCUSDT
+          plugin_stock_token: ${{ secrets.BINANCE_TOKEN }}
+          output_action: commit    
