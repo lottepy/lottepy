@@ -20,6 +20,24 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
+                                <div class="title">《不平等的樣貌》：一本探討新加坡貧窮的民族誌，如何戳破國族論述的假象</div>
+                                <div class="date">19 Mar 2022</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
+                                <div class="title">文化抵制俄羅斯：迪士尼一反常態，Netflix差點成了俄國大外宣？</div>
+                                <div class="date">19 Mar 2022</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
                                 <div class="title">音樂在烏克蘭的真實身份：弱小可以抵禦砲火的秘密</div>
                                 <div class="date">19 Mar 2022</div>
                             </div>
@@ -38,8 +56,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">端開麥：第94屆奧斯卡頒獎之前，我們談談這一年電影帶來的收穫</div>
-                                <div class="date">18 Mar 2022</div>
+                                <div class="title">青春養成記：華人媽媽最難頂？為何社會總要求一個情緒穩定的女人？</div>
+                                <div class="date">19 Mar 2022</div>
                             </div>
                         </div>
                         <div class="field rss">
@@ -47,26 +65,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">大陸Omicron疫情失控，中國式「共存」是否可能？</div>
+                                <div class="title">讀者十論：逆行之路</div>
                                 <div class="date">18 Mar 2022</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">晚報：拜登譴責普京是「殺人獨裁者、惡棍」，美方蒐集俄軍戰爭罪行證據</div>
-                                <div class="date">18 Mar 2022</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">大批俄羅斯人在制裁和異見鎮壓之下出逃</div>
-                                <div class="date">17 Mar 2022</div>
                             </div>
                         </div>
                     </section>
