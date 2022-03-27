@@ -20,6 +20,24 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
+                                <div class="title">《千萬別抬頭》：帶著政治諷刺的致命傷，為氣候危機吶喊</div>
+                                <div class="date">26 Mar 2022</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
+                                <div class="title">奧斯卡熱門《犬山記》：傳統雄風走到盡頭，就是再也撐不下去的尷尬</div>
+                                <div class="date">26 Mar 2022</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
                                 <div class="title">Spencer（2021）：戴安娜的「以父之名」</div>
                                 <div class="date">26 Mar 2022</div>
                             </div>
@@ -29,7 +47,16 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">奧斯卡最佳影片怎麼選出來的？票選機制令中規中矩者得頭獎？</div>
+                                <div class="title">歷經改革的俄軍為何在入侵烏克蘭時毫無章法</div>
+                                <div class="date">25 Mar 2022</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
+                                <div class="title">奧斯卡會選《犬山記》還是《沙丘》？為何最佳影片總頒給中規中矩的電影？</div>
                                 <div class="date">25 Mar 2022</div>
                             </div>
                         </div>
@@ -40,33 +67,6 @@
                             <div class="infos">
                                 <div class="title">晚報：北韓領袖金正恩昨日指導試射洲際導彈，警告侵犯北韓須付沉重代價</div>
                                 <div class="date">25 Mar 2022</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">發現黑匣子、主要撞擊點、發動機殘骸...東航墜機核心問題仍待回答</div>
-                                <div class="date">24 Mar 2022</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">早報：西方國家峰會抨擊俄羅斯「野蠻」；烏克蘭稱摧毀俄軍大型登陸艦</div>
-                                <div class="date">24 Mar 2022</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">確診逝者的最後一程︰失去尊嚴地離世，無人出席的喪禮</div>
-                                <div class="date">24 Mar 2022</div>
                             </div>
                         </div>
                     </section>
